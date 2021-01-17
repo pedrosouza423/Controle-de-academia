@@ -4,7 +4,10 @@
   "description": "Página criada para fins de fixação do conteúdo aprendido no curso LaunchBase da Rocketseat",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "npm-run-all -p nodemon browsersync",
+    "nodemon": "nodemon server.js",
+    "browsersync": "browser-sync start --proxy http://localhost:5000 --files 'public,views'"
+
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,11 @@
   "homepage": "https://github.com/pedrosouza423/Controle-de-academia#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.6",
     "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5"
   }
 }
