@@ -1,1 +1,12 @@
-{"avatar_url":"http://www.google.com.br","name":"Pedro Henrique Fernandes Souza","birth":"2002-01-05","gender":"M","services":"Crossfit"}
+{
+  "instructors": [
+    {
+      "avatar_url": "http://www.google.com.br",
+      "name": "Pedro Henrique Fernandes Souza",
+      "birth": "2002-01-05",
+      "gender": "M",
+      "services": "Musculação",
+      "created_at": 1611409070101
+    }
+  ]
+}
