@@ -7,6 +7,7 @@ const routes = require('./routes')
 const server = express()
 
 //Parte middlewares da página
+server.use(express.urlencoded( {extended:true} ))
 server.use(express.static('public'))
 server.use(routes)
 
