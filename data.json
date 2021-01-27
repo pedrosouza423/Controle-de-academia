@@ -6,17 +6,35 @@
       "name": "Pedro Henrique Fernandes Souza",
       "birth": 1010188800000,
       "gender": "M",
-      "services": "Musculação, crossfit",
+      "services": "Musculação, crossfit, natação",
       "created_at": 1611521092695
     },
     {
       "id": 2,
       "avatar_url": "http://www.google.com.br",
       "name": "Luizinha",
-      "birth": 1041724800000,
+      "birth": 1070582400000,
       "gender": "F",
       "services": "Natação",
-      "created_at": 1611521197316
+      "created_at": 1611774117329
+    },
+    {
+      "id": 3,
+      "avatar_url": "http://www.google.com.br",
+      "name": "João Paulo",
+      "birth": 948931200000,
+      "gender": "M",
+      "services": "Crossfit",
+      "created_at": 1611774247136
+    },
+    {
+      "id": 4,
+      "avatar_url": "http://www.google.com.br",
+      "name": "Thiago Souza Galhardo",
+      "birth": 818553600000,
+      "gender": "M",
+      "services": "Musculação",
+      "created_at": 1611774850863
     }
   ]
 }
